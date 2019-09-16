@@ -8,6 +8,10 @@ A simple unopinionated application template for getting started with OpenFin and
 
 -   React template that leverages [create-react-app](https://github.com/facebook/create-react-app) to output a build and launch an OpenFin application.
 
+#### Feature Branches
+
+-   [Channels](https://github.com/connormccafferty/react-app-template/tree/feature/channels)
+
 #### [Visual Studio Code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
 -   Attach to debugger for in-editor break points, call stacks, and an interactive console
