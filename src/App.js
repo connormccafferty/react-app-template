@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
+import CreateChannelClient from "./CreateChannelClient";
+
 function App({ fin }) {
     const [version, setVersion] = useState("");
     useEffect(() => {
@@ -22,6 +24,7 @@ function App({ fin }) {
                 <h1>Hello, world!</h1>
                 <p>This is a template for an OpenFin React Application</p>
                 <p>Current Version: {version}</p>
+                <CreateChannelClient fin={fin} />
             </div>
         </div>
     );
