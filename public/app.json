@@ -1,0 +1,24 @@
+{
+    "startup_app": {
+        "name": "OpenfinReact",
+        "url": "http://localhost:3000",
+        "uuid": "OpenfinReact",
+        "applicationIcon": "http://localhost:3000/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true,
+        "defaultWidth": 800,
+        "defaultHeight": 500,
+        "defaultCentered": true,
+        "autoCenter": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin React App Template",
+        "icon": "http://localhost:3000/favicon.ico",
+        "name": "Openfin React"
+    }
+}
