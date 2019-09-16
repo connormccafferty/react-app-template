@@ -18,5 +18,3 @@ const checkEnv = ({ fin }) => {
 };
 
 ReactDOM.render(checkEnv(window), document.getElementById("root"));
-
-module.hot.accept();
