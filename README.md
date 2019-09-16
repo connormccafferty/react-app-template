@@ -1,23 +1,11 @@
-# React Application Template
+# Feature: Channels
 
-A simple unopinionated application template for getting started with OpenFin and React. The setup leverages [create-react-app](https://github.com/facebook/create-react-app), has minimal dependancies and the feature set is intentially limited. Explore the `feature/` branches for examples of functionality built on top of this template.
-
-### What you get:
-
-#### Basic React Template
-
--   React template that leverages [create-react-app](https://github.com/facebook/create-react-app) to output a build and launch an OpenFin application.
-
-#### [Visual Studio Code](https://code.visualstudio.com/) integration, thanks to @jcarter
-
--   Attach to debugger for in-editor break points, call stacks, and an interactive console
--   Hadouken configuration ( `app.json` ) smart completion based on available parameters
--   Hadouken API smart completions based on variable types and function definitions
+This repo is a simple demonstration of the [Channel API](https://cdn.openfin.co/docs/javascript/stable/InterApplicationBus.Channel.html) in an Openfin/React Application.
 
 ### How to use this:
 
 -   Clone this repository: `git clone https://github.com/connormccafferty/react-app-template`
--   Install the dependencies: `cd react-typescript-app-template` & `npm install`
+-   Install the dependencies: `cd react-app-template` & `git checkout feature/channels` & `npm install`
 -   Start the live-server: `npm start`
 -   Launch the OpenFin application: `npm run start:openfin`
 
