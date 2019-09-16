@@ -4,22 +4,22 @@ A simple unopinionated application template for getting started with OpenFin and
 
 ### What you get:
 
-#### Basic React/TypeScript Template
+#### Basic React Template
 
-- React and TypeScript template that leverages [create-react-app](https://github.com/facebook/create-react-app) to output a build and launch an OpenFin application.
+-   React template that leverages [create-react-app](https://github.com/facebook/create-react-app) to output a build and launch an OpenFin application.
 
 #### [Visual Studio Code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
-- Attach to debugger for in-editor break points, call stacks, and an interactive console
-- Hadouken configuration ( `app.json` ) smart completion based on available parameters
-- Hadouken API smart completions based on variable types and function definitions
+-   Attach to debugger for in-editor break points, call stacks, and an interactive console
+-   Hadouken configuration ( `app.json` ) smart completion based on available parameters
+-   Hadouken API smart completions based on variable types and function definitions
 
 ### How to use this:
 
-- Clone this repository: `git clone https://github.com/connormccafferty/react-app-template`
-- Install the dependencies: `cd react-typescript-app-template` & `npm install`
-- Start the live-server: `npm start`
-- Launch the OpenFin application: `npm run start:openfin`
+-   Clone this repository: `git clone https://github.com/connormccafferty/react-app-template`
+-   Install the dependencies: `cd react-typescript-app-template` & `npm install`
+-   Start the live-server: `npm start`
+-   Launch the OpenFin application: `npm run start:openfin`
 
 ## License
 
