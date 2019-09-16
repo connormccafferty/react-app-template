@@ -1,6 +1,6 @@
 # Feature: Channels
 
-This repo is a simple demonstration of the [Channel API](https://cdn.openfin.co/docs/javascript/stable/InterApplicationBus.Channel.html) in an Openfin/React Application.
+This repo is a simple demonstration of the [Channel API](https://cdn.openfin.co/docs/javascript/stable/InterApplicationBus.Channel.html) in an Openfin/React Application. Launching the app creates a channel provider, clicking the Create Child Window button will create a new window and join the channel as a client upon creation.
 
 ### How to use this:
 
