@@ -23,7 +23,7 @@ A simple unopinionated application template for getting started with OpenFin and
 -   Clone this repository: `git clone https://github.com/connormccafferty/react-app-template`
 -   Install the dependencies: `cd react-app-template` & `npm install`
 -   Start the live-server: `npm start`
--   Launch the OpenFin application: `npm run start:openfin`
+-   Launch the OpenFin application: `npm run launch`
 
 ## License
 
