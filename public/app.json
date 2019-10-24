@@ -8,9 +8,19 @@
         "saveWindowState": true,
         "defaultWidth": 800,
         "defaultHeight": 500,
-        "defaultCentered": true,
-        "autoCenter": true
+        "permissions": {
+            "ExternalWindow": {
+                "wrap": true
+            },
+            "System": {
+                "getAllExternalWindows": true,
+                "launchExternalProcess": true,
+                "readRegistryValue": false,
+                "terminateExternalProcess": true
+            }
+        }
     },
+    "services": [{ "name": "excel" }],
     "runtime": {
         "arguments": "",
         "version": "stable"

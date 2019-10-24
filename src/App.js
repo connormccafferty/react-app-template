@@ -1,27 +1,16 @@
 /* eslint-disable */
-import React, { useState, useEffect } from "react";
+import React from "react";
+import Table from "./Table";
 import PropTypes from "prop-types";
 
 function App({ fin }) {
-    const [version, setVersion] = useState("");
-    useEffect(() => {
-        async function ofVersion() {
-            const v = await fin.System.getVersion();
-            setVersion(v);
-        }
-
-        ofVersion();
-    }, []);
-
     return (
         <div className="main">
             <div className="logo-container">
                 <img src="assets/logo.svg" />
             </div>
             <div>
-                <h1>Hello, world!</h1>
-                <p>This is a template for an OpenFin React Application</p>
-                <p>Current Version: {version}</p>
+                <Table fin={fin} />
             </div>
         </div>
     );
