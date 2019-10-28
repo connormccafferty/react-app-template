@@ -1,14 +1,11 @@
 /* eslint-disable */
-import React, { useEffect } from "react";
+import React from "react";
+import useExcelService from "./useExcelService";
 import Table from "./Table";
 import PropTypes from "prop-types";
 
 function App({ fin }) {
-    useEffect(() => {
-        (async () => {
-            await fin.desktop.ExcelService.init();
-        })();
-    });
+    useExcelService(fin);
 
     return (
         <div className="main">
