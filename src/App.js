@@ -1,9 +1,15 @@
 /* eslint-disable */
-import React from "react";
+import React, { useEffect } from "react";
 import Table from "./Table";
 import PropTypes from "prop-types";
 
 function App({ fin }) {
+    useEffect(() => {
+        (async () => {
+            await fin.desktop.ExcelService.init();
+        })();
+    });
+
     return (
         <div className="main">
             <div className="logo-container">
