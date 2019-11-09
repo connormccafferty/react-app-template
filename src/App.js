@@ -5,8 +5,7 @@ import Table from "./Table";
 import PropTypes from "prop-types";
 
 function App({ fin }) {
-    useExcelService(fin);
-
+    // useExcelService(fin);
     return (
         <div className="main">
             <div className="logo-container">

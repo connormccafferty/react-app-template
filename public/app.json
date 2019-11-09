@@ -22,7 +22,7 @@
     },
     "services": [{ "name": "excel" }],
     "runtime": {
-        "arguments": "",
+        "arguments": "--enable-experimental-web-platform-features",
         "version": "stable"
     },
     "shortcut": {
