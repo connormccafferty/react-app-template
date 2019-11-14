@@ -20,9 +20,8 @@
             }
         }
     },
-    "services": [{ "name": "excel" }],
     "runtime": {
-        "arguments": "--enable-experimental-web-platform-features",
+        "arguments": "--enable-experimental-web-platform-features --disable-web-security",
         "version": "stable"
     },
     "shortcut": {
