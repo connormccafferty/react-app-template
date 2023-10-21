@@ -32,6 +32,6 @@
     },
     "devDependencies": {
         "openfin-cli": "^2.0.10",
-        "react-devtools-core": "^3.6.3"
+        "react-devtools-core": "^4.28.4"
     }
 }
